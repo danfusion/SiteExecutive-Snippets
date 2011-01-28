@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<snippet filetemplate="false" extension="">
+<name>reg_genicons</name>
+<help>Registers a desktop icon for the class</help>
+<starttext><![CDATA[<cfmodule	template="/#request.SEMap#/config/init/reg_genicons.cfm"
+			modname="$${modname}"
+			title="$${title}"
+			module="$${module:/#request.SEMap#/path/to/mod.cfm'}"
+			image="$${image:/images/icons/icon.gif}"
+			class="$${class:APPINSTANCE|APP}"
+			perms="$${perms:READ|WRITE|ADMIN}"
+			parentperms="$${parentperms:READ|WRITE|ADMIN}"
+			width="$${width:600}"
+			height="$${height:400}"
+			tabs="$${tabs}"
+			check="$${check}"
+			dialog="$${dialog:yes|no}"
+>]]></starttext>
+<endtext><![CDATA[]]></endtext>
+</snippet>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<snippet filetemplate="false" extension="">
+<name>query</name>
+<help>Object query API</help>
+<starttext><![CDATA[<cfmodule	template="/#request.SEMap#/obj/query.cfm"
+			class="$${class}"
+			returnlist="$${returnlist:no|yes}"
+			cache="$${cache:yes|no}"
+			sortby="$${sortby:NAME}"
+			subclasses="$${subclasses:yes|no}"
+			returnuri="$${returnuri:no|yes}"
+			resultstart="$${resultstart:1}"
+			resultlimit="$${resultlimit:0}"
+			resultcount="$${resultcount}"
+			resultvar="$${resultvar}"
+>
+<!--- Search critera here --->]]></starttext>
+<endtext><![CDATA[</cfmodule>]]></endtext>
+</snippet>

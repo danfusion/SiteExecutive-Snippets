@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<snippet filetemplate="false" extension="">
+<name>reg_icon</name>
+<help>Registers the explorer icon for a class</help>
+<starttext><![CDATA[<cfmodule	template="/#request.SEMap#/config/init/reg_icon.cfm"
+			state="$${state:NORMAL|EXPANDED}"
+			path="$${path:/images/icons/folder_collapsed.gif{"
+>]]></starttext>
+<endtext><![CDATA[]]></endtext>
+</snippet>

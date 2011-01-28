@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<snippet filetemplate="false" extension="">
+<name>reg_relation</name>
+<help>Registers a class as either a parent of child of another class</help>
+<starttext><![CDATA[<!--- Note: this only accepts one argument at a time! --->
+<cfmodule	template="/#request.SEMap#/config/init/reg_relation.cfm"
+			childof="$${childof}"
+			parentof="$${parentof}"
+>]]></starttext>
+<endtext><![CDATA[]]></endtext>
+</snippet>

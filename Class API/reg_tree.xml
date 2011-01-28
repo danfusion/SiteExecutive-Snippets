@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<snippet filetemplate="false" extension="">
+<name>reg_tree</name>
+<help>Registers a class with the site tree</help>
+<starttext><![CDATA[<cfmodule	template="/#request.SEMap#/config/init/reg_tab.cfm"
+			expandable="$${expandable:no|yes}"
+			childsort="$${childsort:CLASS|NAME}"
+>]]></starttext>
+<endtext><![CDATA[]]></endtext>
+</snippet>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<snippet filetemplate="false" extension="">
+<name>geturi</name>
+<help>Get the SiteExecutive URI for an object</help>
+<starttext><![CDATA[<cfmodule	template="/#request.SEMap#/util/geturi.cfm"
+			objectid="$${objectid:#variables.thisPage.id#}"
+			checkactive="$${checkactive:no|yes}"
+			returnvar="$${returnvar:SEURI}"
+			returndeps="$${returndeps}"
+			returnactive="$${returnactive}"
+			fullyqualified="$${fullyqualified:no|yes}"
+			throwonerror="$${throwonerror:no|yes}"
+>]]></starttext>
+<endtext><![CDATA[]]></endtext>
+</snippet>
