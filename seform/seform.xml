@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<snippet filetemplate="false" extension="">
+<name>seform</name>
+<help>SEForm tag</help>
+<starttext><![CDATA[<seform:form
+	id="$${id}"
+	action="$${action:#attributes.selfURL#}"
+	formdata="$${formdata:#variables.configuration#}"
+	displaymode="$${datamode:EDIT|VIEW}"
+	skin="$${skin:/se/seform/bfg_skin.css}">
+]]></starttext>
+<endtext><![CDATA[</seform:form>]]></endtext>
+</snippet>

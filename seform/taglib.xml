@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<snippet filetemplate="false" extension="">
+<name>taglib</name>
+<help>Import the seform taglib</help>
+<starttext><![CDATA[<cfimport prefix="seform" taglib="/se-server/www/se/seform/tags" />]]></starttext>
+<endtext><![CDATA[]]></endtext>
+</snippet>

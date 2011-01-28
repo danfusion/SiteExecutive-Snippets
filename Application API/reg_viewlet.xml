@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<snippet filetemplate="false" extension="">
+<name>reg_viewlet</name>
+<help>Register an application viewlet</help>
+<starttext><![CDATA[<cfmodule	template="/#attributes.modPath#/reg_viewlet.cfm"
+			viewletname="$${viewletname}"
+			title="$${title}"
+			module="$${module}"
+			hint="$${hint}"
+			editdialog="$${editdialog}"
+			editdialogwidth="$${editdialogwidth:500}"
+			editdialogheight="$${editdialogheight:400}"
+			allowontemplate="$${allowontemplate:no|yes}"
+			allowonpage="$${allowonpage:no|yes}"
+>]]></starttext>
+<endtext><![CDATA[]]></endtext>
+</snippet>

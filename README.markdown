@@ -1,5 +1,5 @@
-SiteExecutive Snippets Collection
-=====================
+SiteExecutive API Snippets Collection
+========================
 
 This is a collection of snippets for ColdFusion Builder or CFEclipse made to support SiteExecutive API Development.
 

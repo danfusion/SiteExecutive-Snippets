@@ -3,6 +3,8 @@
 <name>reg_tab</name>
 <help>Register a tab using reg_tab.cfm</help>
 <starttext><![CDATA[<cfmodule 	template="/#request.SEMap#/config/init/reg_tab.cfm"
+			title="$${title}"
+			modname="$${title}"
 			module="$${module:#attributes.AppPath#/tabs/module_here.cfm}"
 			priority="$${priority:0}"
 			class="$${class:APPINSTANCE|APP}"
