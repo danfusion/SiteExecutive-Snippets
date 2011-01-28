@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<snippet filetemplate="false" extension="">
+<name>hasEndTag</name>
+<help>Block for app_content.cfm</help>
+<starttext><![CDATA[<!--- keep this from being processed twice --->
+<cfif thisTag.ExecutionMode IS "end">
+	<cfexit />
+</cfif>]]></starttext>
+<endtext><![CDATA[]]></endtext>
+</snippet>
