@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<snippet filetemplate="false" extension="">
+<name>getchildren</name>
+<help>Get object children</help>
+<starttext><![CDATA[<cfmodule 	template="/#request.SEMap#/obj/getchildren.cfm"
+			parentid="$${parentid}"
+			returnlist="$${returnlist:no|yes}"
+			filter="$${filter}"
+			sortby="$${sortby:NAME}"
+			class="$${class}"
+			subclasses="$${subclasses:yes|no}"
+			cache="$${cache:yes|no}"
+			resultvar="$${resultvar:objectChildren}"
+>]]></starttext>
+<endtext><![CDATA[]]></endtext>
+</snippet>

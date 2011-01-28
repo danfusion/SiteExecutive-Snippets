@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<snippet filetemplate="false" extension="">
+<name>button</name>
+<help>Button</help>
+<starttext><![CDATA[<seform:button	id="$${id:se#hash(CreateUUID)#}"
+					type="$${type:button|submit}"
+					value="$${value:Button}"
+					perm="$${perm:READ|WRITE|ADMIN}"
+					permobject="$${permobject:caller.attributes.object}" />]]></starttext>
+<endtext><![CDATA[]]></endtext>
+</snippet>

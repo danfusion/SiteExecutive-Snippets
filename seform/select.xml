@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<snippet filetemplate="false" extension="">
+<name>select</name>
+<help>Code for select form field</help>
+<starttext><![CDATA[<seform:select id="dropdown1" label="Dropdown 1">
+	<option value="foo" <cfif form.dropdown1 IS "foo">selected</cfif>>bar</option>
+	]]></starttext>
+<endtext><![CDATA[</seform:select>]]></endtext>
+</snippet>
