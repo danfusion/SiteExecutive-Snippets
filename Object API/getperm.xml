@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<snippet filetemplate="false" extension="">
+<name>getperm</name>
+<help>Get permissions for an object</help>
+<starttext><![CDATA[<cfmodule	template="/#request.SEMap#/obj/getperm.cfm"
+			entityid="$${entityid}"
+			objectid="$${objectid}"
+			right="$${right:READ|WRITE|ADMIN|ALL}"
+			netright="$${netright:yes|no}"
+			entitylist="$${entitylist}"
+			returnvar="$${returnvar:userPermissions}"
+>]]></starttext>
+<endtext><![CDATA[]]></endtext>
+</snippet>

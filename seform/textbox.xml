@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<snippet filetemplate="false" extension="">
+<name>textbox</name>
+<help>Generates a textbox</help>
+<starttext><![CDATA[<seform:textbox id="$${id}" label="$${label}" required="$${required:no|yes}" arrange="$${arrange:horizontal:vertical}" />]]></starttext>
+<endtext><![CDATA[]]></endtext>
+</snippet>

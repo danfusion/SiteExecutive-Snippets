@@ -8,6 +8,7 @@
 			module="$${module:#attributes.AppPath#/tabs/module_here.cfm}"
 			priority="$${priority:0}"
 			class="$${class:APPINSTANCE|APP}"
+			depends="$${depends}"
 			initiallyselected="$${initiallyselected:no|yes}"
 			perms="$${perms:READ|WRITE|ADMIN}"
 >]]></starttext>

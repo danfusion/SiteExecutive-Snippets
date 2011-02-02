@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<snippet filetemplate="false" extension="">
+<name>get</name>
+<help>Get object by id</help>
+<starttext><![CDATA[<cfmodule		template="/#request.SEMap#/obj/get.cfm"
+				objectid="$${objectid}"
+				objectlist="$${objectlist}"
+				readonly="$${readonly:no|yes}"
+				cache="$${cache:no|yes}"
+				returnuri="$${returnuri:no|yes}"
+				resultvar="$${resultvar}"
+				throwonerror="$${throwonerror:no|yes}"
+>]]></starttext>
+<endtext><![CDATA[]]></endtext>
+</snippet>
