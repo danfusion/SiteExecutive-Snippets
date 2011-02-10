@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<snippet filetemplate="false" extension="">
+<name>buttonset</name>
+<help>Creates a buttonset</help>
+<starttext><![CDATA[<seform:buttonset class="$${class}" style="$${style}" includehr="$${includehr:no|yes}">]]></starttext>
+<endtext><![CDATA[</seform:buttonset>]]></endtext>
+</snippet>
