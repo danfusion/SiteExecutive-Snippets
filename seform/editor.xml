@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<snippet filetemplate="false" extension="">
+<name>editor</name>
+<help>Creates an editor tag</help>
+<starttext><![CDATA[<seform:editor	id="$${id}"
+				label="$${label}"
+				required="$${required:no|yes}"
+				arrange="$${arrange:horizontal|vertical}"
+				rowid="$${rowid}"
+				labelclass="$${labelclass}"
+				labelstyle="$${labelstyle}"
+				value="$${value}"
+				width="$${width:100%}"
+				height="$${height:100%}"
+				allowsource="$${allowsource:no|yes}"
+				allowformat="$${allowformat:no|yes}"
+				toolbarlist="$${toolbarlist}"
+				note="$${note}"
+/>]]></starttext>
+<endtext><![CDATA[]]></endtext>
+</snippet>
