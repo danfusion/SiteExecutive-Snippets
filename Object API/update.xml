@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<snippet filetemplate="false" extension="">
+<name>update</name>
+<help>Save an SE object to the database</help>
+<starttext><![CDATA[<cfmodule	template="/#request.SEMap#/obj/update.cfm"
+			object="$${object}"
+			confirm="$${confirm:yes|no}"
+			abort="$${abort}"
+			message="$${message}"
+			audit="$${audit:no|yes}"
+			updatelastmod="$${updatelastmod:yes|no}"
+			throwonerror="$${throwonerror:no|yes}"
+>]]></starttext>
+<endtext><![CDATA[]]></endtext>
+</snippet>
