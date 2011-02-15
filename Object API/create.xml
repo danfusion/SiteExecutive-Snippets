@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<snippet filetemplate="false" extension="">
+<name>create</name>
+<help>Create a new SE object</help>
+<starttext><![CDATA[<cfmodule	template="/#request.SEMap#/obj/create.cfm"
+			class="$${class}"
+			objectname="$${objectname}"
+			parentid="$${parentid}"
+			generatename="$${generatename:no|yes}"
+			confirm="$${confirm:yes|no}"
+			abort="$${abort}"
+			message="$${message}"
+			audit="$${audit:no|yes}"
+			objectvar="$${objectvar}"
+			throwonerror="$${throwonerror:no|yes}"
+>]]></starttext>
+<endtext><![CDATA[]]></endtext>
+</snippet>
