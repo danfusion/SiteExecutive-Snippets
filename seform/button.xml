@@ -2,10 +2,11 @@
 <snippet filetemplate="false" extension="">
 <name>button</name>
 <help>Button</help>
-<starttext><![CDATA[<seform:button	id="$${id:se#hash(CreateUUID)#}"
+<starttext><![CDATA[<seform:button	id="$${id:}"
 					type="$${type:button|submit}"
 					value="$${value:Button}"
 					perm="$${perm:READ|WRITE|ADMIN}"
-					permobject="$${permobject:caller.attributes.object}" />]]></starttext>
+					permobject="$${permobject:caller.attributes.object}"
+					onclick="$${onclick}" />]]></starttext>
 <endtext><![CDATA[]]></endtext>
 </snippet>
