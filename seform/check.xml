@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<snippet filetemplate="false" extension="">
+<name>check</name>
+<help></help>
+<starttext><![CDATA[<seform:check	id="$${id}" 
+				label="$${label}" 
+				required="$${required:no|yes}" 
+				arrange="$${arrange:horizontal|vertical}" 
+				rowid="$${rowid}"
+				labelclass="$${labelclass}"
+				labelstyle="$${labelstyle}"
+				fieldclass="$${fieldclass}"
+				fieldstyle="$${fieldstyle}"
+				value="$${value}"
+				checked="$${checked:no|yes}"
+				note="$${note}"
+/>]]></starttext>
+<endtext><![CDATA[]]></endtext>
+</snippet>

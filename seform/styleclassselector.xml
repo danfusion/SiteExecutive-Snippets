@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<snippet filetemplate="false" extension="">
+<name>styleclassselector</name>
+<help></help>
+<starttext><![CDATA[<seform:styleclassselector	id="$${id}"
+							label="$${label:Class}"
+							required="$${required:no|yes}"
+							arrange="$${arrange:horizontal:vertical}"
+							rowid="$${rowid}"
+							labelclass="$${labelclass}"
+							labelstyle="$${labelstyle}"
+							fieldclass="$${fieldclass}"
+							fieldstyle="$${fieldstyle}"
+							value="$${value:#formData[id]#}"
+							stylesheetversionid="$${stylesheetversionid}"
+							ssid="$${ssid}"
+							ssvid="$${ssvid}"
+							elementlist="$${elementlist}"
+							universalclassonly="$${universalclassonly}"
+							note="$${note}"
+/>]]></starttext>
+<endtext><![CDATA[]]></endtext>
+</snippet>

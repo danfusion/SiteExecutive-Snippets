@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<snippet filetemplate="false" extension="">
+<name>tabbox</name>
+<help></help>
+<starttext><![CDATA[<seform:tabbox	id="$${id}"
+					label="$${label}"
+					class="$${class:seFormbox}"
+					style="$${style}"
+					selected="$${selected:yes|no}"
+>]]></starttext>
+<endtext><![CDATA[</seform:tabbox>]]></endtext>
+</snippet>

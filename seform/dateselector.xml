@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<snippet filetemplate="false" extension="">
+<name>dateselector</name>
+<help></help>
+<starttext><![CDATA[<seform:dateselector
+	id="$${id}"
+	label="$${label}"
+	arrange="$${arrange:horizontal|vertical}"
+	rowid="$${rowid}"
+	labelclass="$${labelclass}"
+	labelstyle="$${labelstyle}"
+	value="$${value}"
+	datefieldcss="$${datefieldcss}"
+	datemask="$${datemask:m/d/yyyy}"
+	showdatemask="$${showdatemask:no|yes}"
+	timefieldid="$${timefieldid}"
+	timefieldvalue="$${timefieldvalue}"
+	timefieldcss="$${timefieldcss}"
+	timemask="$${timemask}"
+	showtimemask="$${showtimemask:no|yes}"
+	calendariconsrc="$${calendariconsrc}"
+	stylesheet="$${stylesheet}"
+	onpropertychange="$${onpropertychange}"
+	note="$${note}"
+	datetimerequired="$${datetimefieldrequired:no|yes}"
+/>]]></starttext>
+<endtext><![CDATA[]]></endtext>
+</snippet>

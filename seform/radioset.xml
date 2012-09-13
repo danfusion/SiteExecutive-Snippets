@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<snippet filetemplate="false" extension="">
+<name>radioset</name>
+<help>Radioset required to wrap radio tags to generate radio buttons on form</help>
+<starttext><![CDATA[<seform:radioset
+	id="$${id}"
+	label="$${label}"
+	arrange="$${horizontal|vertical}"
+	boxarrange="$${horizontal|vertical}"
+	rowid="$${rowid}"
+	labelclass="$${labelclass}"
+	labelstyle="$${labelstyle}">]]></starttext>
+<endtext><![CDATA[</seform:radioset>]]></endtext>
+</snippet>

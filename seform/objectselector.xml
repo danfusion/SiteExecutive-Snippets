@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<snippet filetemplate="false" extension="">
+<name>objectselector</name>
+<help></help>
+<starttext><![CDATA[<seform:objectselector	id="$${id}"
+						label="$${label:label}"
+						required="$${required:no|yes}"
+						arrange="$${arrange:horizontal|vertical}"
+						rowid="$${rowid}"
+						labelclass="$${labelclass}"
+						labelstyle="$${labelstyle}"
+						value="$${value:formData[id]}"
+						fieldwidth="$${fieldwidth:275}"
+						currentanchor="$${currentanchor:no|yes}"
+						selectlist="$${selectlist:SITE,FOLDER,PAGE,APPINSTANCE,#application.SEMisc.binaryClassNames#}"
+						visiblelist="$${visiblelist:SITE,FOLDER,PAGE,APPINSTANCE,#application.SEMisc.binaryClassNames#}"
+						selectsubclasses="$${selectsubclasses:no|yes}"
+						onchange="$${onchange}"
+						allowremove="$${allowremove:no|yes}"
+						renderviewmode="$${renderviewmode:objecturl|objectname}"
+						note="$${note}"
+/>]]></starttext>
+<endtext><![CDATA[]]></endtext>
+</snippet>

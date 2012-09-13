@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<snippet filetemplate="false" extension="">
+<name>textarea</name>
+<help></help>
+<starttext><![CDATA[<seform:textarea id="$${id}" 
+label="$${label}" 
+required="$${required:no|yes}" 
+arrange="$${arrange:horizontal:vertical}" 
+rowid="$${rowid}"
+labelclass="$${labelclass}"
+labelstyle="$${labelstyle}"
+fieldclass="$${fieldclass}"
+fieldstyle="$${fieldstyle}"
+value="$${value}"
+cols="$${cols:50}"
+rows="$${rows:3}"
+notes="$${notes}"
+/>]]></starttext>
+<endtext><![CDATA[]]></endtext>
+</snippet>
